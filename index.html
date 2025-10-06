@@ -9,49 +9,84 @@
     <link rel="stylesheet" href="./css/layout.css">\
     <link rel="stylesheet" href="./css/base.css">
 
-    <title>Página Inicial - Nome da Loja</title>
+    <link rel="stylesheet" href="./css/components/header.css">
+
+    <title>SyntaxWear - Tênis e Sneakers Online</title>
 </head>
 
 <body>
 
-    <header role="banner">
-        <!-- Cabeçalho principal com logo, busca e ícones de usuário/carrinho -->
-        <nav aria-label="Navegação principal">
-            <!-- Links de navegação primários -->
+    <header class="header">
+        <h1 class="logo">
+            <a href="/" title="SyntaxWear - Tênis e Sneakers Online">
+                <img src="./images/logo/Logo.svg" alt="SyntaxWear - Tênis e Sneakers Online">
+            </a>
+        </h1>
+        <nav class="nav-center" aria-label="Categorias Principais">
+            <ul>
+                <li>
+                    <a href="#">Masculino</a>
+                </li>
+                <li>
+                    <a href="#">Feminino</a>
+                </li>
+                <li>
+                    <a href="#">Outlet</a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="nav-rigth" aria-label="Acesso rápido">
+            <ul>
+                <li>
+                    <a href="#">Nossas Lojas</a>
+                    <a href="#">Sobre</a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Minha conta">
+                        <img src="./images/icons/user.svg" alt="Minha conta">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Ajuda">
+                        <img src="./images/icons/help.svg" alt="help">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Carrinho">
+                        <img src="./images/icons/bag.svg" alt="Carrinho">
+                    </a>
+                </li>
+            </ul>
         </nav>
     </header>
 
     <main role="main">
 
         <section aria-labelledby="hero-heading">
-            <!-- Seção de destaque principal (Hero) -->
-            <h2 id="hero-heading" style="display:none;">Destaques</h2>
+            
         </section>
 
         <section aria-labelledby="categories-heading">
-            <!-- Seção de Categorias de Produtos -->
-            <h2 id="categories-heading">Categorias</h2>
+            
         </section>
 
         <section aria-labelledby="featured-products-heading">
-            <!-- Seção de Produtos em Destaque -->
-            <h2 id="featured-products-heading">Produtos em Destaque</h2>
+            
         </section>
 
         <section aria-labelledby="promo-banner-heading">
-            <!-- Banner promocional secundário -->
-            <h2 id="promo-banner-heading" style="display:none;">Promoção</h2>
+            
         </section>
 
         <aside aria-labelledby="newsletter-heading">
-            <!-- Seção de Inscrição na Newsletter -->
-            <h2 id="newsletter-heading">Receba nossas ofertas</h2>
+            
         </aside>
 
     </main>
 
     <footer role="contentinfo">
-        <!-- Rodapé com links úteis, informações de contato e redes sociais -->
+        
     </footer>
 
 </body>
